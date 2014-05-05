@@ -1,0 +1,742 @@
+// Created     : 2013-04-5 9:38:54
+// DLL id      : C:\Program Files (x86)\DHI\2011\Bin\pfs2004.dll
+// PFS version : Jan  6 2011 20:45:15
+
+[BndCondition]
+   Comment = ''
+   [BndCndArray]
+      [BndItem]
+         DescType = 0, 1, 'Torrington_B01', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, |..\..\..\Colombo_Water_Quality\dfs0\2003Nov_2004Jan.dfs0|, 0.001, 1, 'ZeroDis', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+            Component = 2, 0, 0, |..\..\..\Colombo_Water_Quality\dfs0\Polution_concentrations.dfs0|, 0, 3, 'Non_decay_low', 0, 1
+            Component = 3, 0, 0, |..\..\..\Colombo_Water_Quality\dfs0\Polution_concentrations.dfs0|, 0, 6, 'decay_low', 0, 1
+            Component = 4, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'St Sebastian East', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, |..\..\..\Colombo_Water_Quality\dfs0\2003Nov_2004Jan.dfs0|, 0.001, 1, 'ZeroDis', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+            Component = 2, 0, 0, |..\..\..\Colombo_Water_Quality\dfs0\Polution_concentrations.dfs0|, 0, 2, 'Non_decay_medium', 0, 1
+            Component = 3, 0, 0, |..\..\..\Colombo_Water_Quality\dfs0\Polution_concentrations.dfs0|, 0, 5, 'decay_medium', 0, 1
+            Component = 4, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'TALANGAMA_UPSTREAM', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, |..\..\..\Colombo_Water_Quality\dfs0\2003Nov_2004Jan.dfs0|, 1, 1, 'ZeroDis', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+            Component = 2, 0, 1, ||, 0, 0, '', 0, 1
+            Component = 3, 0, 1, ||, 0, 0, '', 0, 1
+            Component = 4, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'TorringtonWest2', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, |..\..\..\Colombo_Water_Quality\dfs0\2003Nov_2004Jan.dfs0|, 0.001, 1, 'ZeroDis', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+            Component = 2, 0, 0, |..\..\..\Colombo_Water_Quality\dfs0\Polution_concentrations.dfs0|, 0, 1, 'Non_decay_high', 0, 1
+            Component = 3, 0, 0, |..\..\..\Colombo_Water_Quality\dfs0\Polution_concentrations.dfs0|, 0, 4, 'decay_high', 0, 1
+            Component = 4, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'TorringtonWest1', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, |..\..\..\Colombo_Water_Quality\dfs0\2003Nov_2004Jan.dfs0|, 0.001, 1, 'ZeroDis', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+            Component = 2, 0, 0, |..\..\..\Colombo_Water_Quality\dfs0\Polution_concentrations.dfs0|, 0, 1, 'Non_decay_high', 0, 1
+            Component = 3, 0, 0, |..\..\..\Colombo_Water_Quality\dfs0\Polution_concentrations.dfs0|, 0, 1, 'Non_decay_high', 0, 1
+            Component = 4, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'Wellawatta CNL 2', 1889, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\Tide_for_design_rain.dfs0|, 0, 1, 'Average_Spring_tide', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+            Component = 2, 0, 1, ||, 0, 0, '', 0, 1
+            Component = 3, 0, 1, ||, 0, 0, '', 0, 1
+            Component = 4, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'Dehiwara CNL 2', 3820, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\Tide_for_design_rain.dfs0|, 0, 1, 'Average_Spring_tide', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+            Component = 2, 0, 1, ||, 0, 0, '', 0, 1
+            Component = 3, 0, 1, ||, 0, 0, '', 0, 1
+            Component = 4, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'mutwaltunnel', 766, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\Tide_for_design_rain.dfs0|, 0, 1, 'Average_Spring_tide', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+            Component = 2, 0, 1, ||, 0, 0, '', 0, 1
+            Component = 3, 0, 1, ||, 0, 0, '', 0, 1
+            Component = 4, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'serpentine', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, |..\..\..\Colombo_Water_Quality\dfs0\2003Nov_2004Jan.dfs0|, 0.001, 1, 'ZeroDis', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+            Component = 2, 0, 0, |..\..\..\Colombo_Water_Quality\dfs0\Polution_concentrations.dfs0|, 0, 1, 'Non_decay_high', 0, 1
+            Component = 3, 0, 0, |..\..\..\Colombo_Water_Quality\dfs0\Polution_concentrations.dfs0|, 0, 4, 'decay_high', 0, 1
+            Component = 4, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'DematagadaScheme', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, |..\..\..\Colombo_Water_Quality\dfs0\2003Nov_2004Jan.dfs0|, 0.5, 1, 'ZeroDis', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+            Component = 2, 0, 0, |..\..\..\Colombo_Water_Quality\dfs0\Polution_concentrations.dfs0|, 0, 1, 'Non_decay_high', 0, 1
+            Component = 3, 0, 0, |..\..\..\Colombo_Water_Quality\dfs0\Polution_concentrations.dfs0|, 0, 4, 'decay_high', 0, 1
+            Component = 4, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'St Sebastian2', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, |..\..\..\Colombo_Water_Quality\dfs0\2003Nov_2004Jan.dfs0|, 1, 1, 'ZeroDis', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+            Component = 2, 0, 0, |..\..\..\Colombo_Water_Quality\dfs0\Polution_concentrations.dfs0|, 0, 1, 'Non_decay_high', 0, 1
+            Component = 3, 0, 0, |..\..\..\Colombo_Water_Quality\dfs0\Polution_concentrations.dfs0|, 0, 4, 'decay_high', 0, 1
+            Component = 4, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'MilkBoardcanal', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, |..\..\..\Colombo_Water_Quality\dfs0\2003Nov_2004Jan.dfs0|, 0.001, 1, 'ZeroDis', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+            Component = 2, 0, 0, |..\..\..\Colombo_Water_Quality\dfs0\Polution_concentrations.dfs0|, 0, 1, 'Non_decay_high', 0, 1
+            Component = 3, 0, 0, |..\..\..\Colombo_Water_Quality\dfs0\Polution_concentrations.dfs0|, 0, 4, 'decay_high', 0, 1
+            Component = 4, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'Kelani', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\Tide_for_design_rain.dfs0|, 0.001, 1, 'Average_Spring_tide', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+            Component = 2, 0, 1, ||, 0, 0, '', 0, 1
+            Component = 3, 0, 1, ||, 0, 0, '', 0, 1
+            Component = 4, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'BOLGODA CANAL', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, |..\..\..\Colombo_Water_Quality\dfs0\2003Nov_2004Jan.dfs0|, 0.001, 1, 'ZeroDis', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+            Component = 1, 0, 1, ||, 0, 0, '', 0, 1
+            Component = 2, 0, 0, |..\..\..\Colombo_Water_Quality\dfs0\Polution_concentrations.dfs0|, 0, 2, 'Non_decay_medium', 0, 1
+            Component = 3, 0, 0, |..\..\..\Colombo_Water_Quality\dfs0\Polution_concentrations.dfs0|, 0, 5, 'decay_medium', 0, 1
+            Component = 4, 0, 1, ||, 0, 0, '', 0, 1
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'Sarana Mawatha', 688, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 0.001, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'Poorwarama CNL', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 0.001, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'Sethsiripaya CNL', 791.28, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 0.001, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'Parliament Lake 2', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 0.001, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'Lake_06', -135, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 0.001, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'Lake_07', 0, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 0.001, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 1, 'Kelani_upstream', 20400, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = true, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\Discharge_Hanwella_for_Design_Events.dfs0|, 0, 1, 'High_Kelani', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'PARLIAMENT_UPPER_REACH', -100, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 1, ||, 1.3, 0, '', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'New Mutwal Tunnel', 970, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\Tide_for_design_rain.dfs0|, 0, 1, 'Average_Spring_tide', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'St.Sebastian_South_Diversion', 1340, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\Tide_for_design_rain.dfs0|, 0, 1, 'Average_Spring_tide', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+      [BndItem]
+         DescType = 0, 5, 'Torrington Diversion', 2350, 0, '', ''
+         OpenDesc = 0, 0
+         Dam = 0, 0, 0
+         Inflow = false, false, false, false
+         ADRR = '', 0, 0
+         QhADM12 = 2, 1, 0
+         AutoCalQh = 0, 0.001, 40
+         BndTS = 0, ||, 0, 0, '', 0, 1
+         [FractionArray]
+         EndSect  // FractionArray
+
+         [HDArray]
+         EndSect  // HDArray
+
+         [InflowArray]
+            Inflow = 2, 0, 0, |.\Tide_for_design_rain.dfs0|, 0, 1, 'Average_Spring_tide', 0, 1
+         EndSect  // InflowArray
+
+         [QhArray]
+         EndSect  // QhArray
+
+         [ComponentArray]
+         EndSect  // ComponentArray
+
+      EndSect  // BndItem
+
+   EndSect  // BndCndArray
+
+EndSect  // BndCondition
+
